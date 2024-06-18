@@ -128,7 +128,7 @@ def main():
         ec0 = np.array(ec0)
         ec0_aprox = np.array(ec0_aprox)
 
-        # Guarda os dados em um dataframe
+        # Stores data in a dataframe
         d = {"ec0": ec0.flatten(), "ec0_aprox": ec0_aprox.flatten()}
         df = pd.DataFrame(d)
 
@@ -151,7 +151,7 @@ def main():
         es0 = np.array(es0)
         es0_aprox = np.array(es0_aprox)
 
-        # Guarda os dados em um dataframe
+        # Stores data in a dataframe
         d = {"es0": es0.flatten(), "es0_aprox": es0_aprox.flatten()}
         df = pd.DataFrame(d)
 
@@ -174,7 +174,7 @@ def main():
         ed0 = np.array(ed0)
         ed0_aprox = np.array(ed0_aprox)
 
-        # Guarda os dados em um dataframe
+        # Stores data in a dataframe
         d = {"ed0": ed0.flatten(), "ed0_aprox": ed0_aprox.flatten()}
         df = pd.DataFrame(d)
 
